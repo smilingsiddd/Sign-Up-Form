@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/07/09/14/sunrise-1030591_1280.jpg);
+    
+}
+
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #ffffffcc;
+    /* background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    backdrop-filter: blur(8px); */
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px #7676ff;
+    
+}
+
+.inner-box:hover{
+    box-shadow: 4px 4px 6px #f89df2;
+}
+
+.signup-header h1{
+    font-size: 2rem;
+    color: #7676ff;
+
+}
+
+.signup-header p{
+    font-size: 1rem;
+    color: #ee50e4;
+}
+
+.signup-body{
+    margin: 20px 0;
+}
+
+.signup-body p{
+    margin: 10px 0;
+}
+
+.signup-body p label{
+    display: block;
+    font-weight: 500;
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.signup-body p input[type="submit"]{
+    background-color: #7676ff;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: #f89df2;
+    color: black;
+}
+
+.signup-footer{
+    color: #5d5858;
+    text-align: center;
+}
+
+.signup-footer a{
+    color: #7676ff;
+}
+
+.signup-footer a:hover{
+    color: #f89df2;
+    font-weight: bold;
+}

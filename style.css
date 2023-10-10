@@ -14,7 +14,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-size: 100vw 100vh;
-    background-image: url(https://cdn.pixabay.com/photo/2015/11/07/09/14/sunrise-1030591_1280.jpg);
+    background-image: url('./background-images/background.jpg');
     
 }
 
